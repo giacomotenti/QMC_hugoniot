@@ -1,0 +1,44 @@
+ 
+  *********** TURBO-ML ***********
+ 
+  # of configurations in train.data:   785  Maximum # of atoms per configuration:   128
+  Number of different atomic species in training set =  1
+  Number of variational parameters for model being trained:  4959
+  # of configurations in test.data:    48  # of atoms per configuration:   128
+ 
+  Number of different atomic species in test set =  1
+  Hyperparameters for model optimization:
+  weighte weightf weightp:        0.10        1.00      100.00
+  rc_ml and f_ml coefficients:     0.5    -4.0    24.0   -36.0    16.0
+  cutoff for density descriptor G^1:     3.0
+  pover2, eps, etry : 2      1.0000      0.0000
+  n_soap = 2
+  Regularization parameters:     0.00010000     0.00000010
+  Computing pressure using Car's formula
+  Using cubic symmetries...
+  Of which only rotations!
+  Default value of maxit =  4961
+  Default value of parcut =  1.110223024625157E-14
+ 
+ Optimization of variational coefficients on training set 
+  Initial rmse_energies rmse_pressure  rmse_forces =  2.322825160986686 2.274104826528965E-04 3.476677517229243E-03 0.5441983624426262
+  Ratio non zero matrix elements =  0.9997841817707773
+  Computed force and  Hessian (distributed) 
+  Warning prep should be a divisor of 785  Chosen = 5
+  Chosen prep =  5
+  Initial skdiag =  3680089.842334041
+  Initial forza before = -135499.2598247176
+  Output  cg  iter error   = 1440 9.118779817494549E-13
+  Coeff  final =  2.341641313728190
+ Average min-max distance from training data of test data:      0.8525
+ Std min-max distance from training data of test data:      0.0202
+  Warning: computing error on test set
+  Final rmse_energies/rmse_pressure,rmse_forces/cost =  9.212621252956028E-02 1.630332161864604E-06 2.215078243143168E-03 2.732847406830722E-03
+  Final regular terms in local energy : 
+  atom species  , type , coeff 
+ H                    constant  1.542339753701096E-02
+ H                    G^1 term  9.220675759717074E-04
+ 
+  Profiling information
+  total initialization time (secs):     6.5
+  total compute time (secs):  2060.4
