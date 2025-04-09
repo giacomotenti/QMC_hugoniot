@@ -1,4 +1,4 @@
 # QMC_hugoniot
 Data for QMC principal hugoniot. 
 
-See https://arxiv.org/abs/2301.03570 for reference
+See https://doi.org/10.1103/PhysRevB.110.L041107 for reference
